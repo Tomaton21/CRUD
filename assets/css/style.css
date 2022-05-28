@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+footer{
+    margin: 2.5rem 0;
+}
+.nav-link{
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #4B4A4A;
+    text-decoration: none;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+body{
+    width: 100%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    background-image: linear-gradient( 98.6deg, rgba(32,190,197,1) 36.2%, rgba(205,143,247,1) 58.4% );
+}
+
+.dropdown-menu{
+    background-image: linear-gradient( 98.6deg, rgba(32,190,197,1) 36.2%, rgba(205,143,247,1) 58.4% );
+}
+
+.parallax-completo{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/assets/images/nails.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-hero{
+    /*background: #111;*/
+    background-image: linear-gradient( 109.6deg, rgba(225,109,252,1) 37.2%, rgba(246,235,162,1) 66.1% );
+    padding: 18px;
+    width: 320px;
+    text-align: center;
+    color: #fff;
+}
+
+h1{
+    font-style: 32px;
+    font-weight: 300;
+}
+
+.center{
+    max-width: 1100px;
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.galeria{
+ background-color: #BAF2E8;
+    margin-top: 10px;
+}
+
+.espacio{
+    padding: 30px 0 60px 0;
+}
+
+.espacio h2{
+    text-align:center;
+    padding:30px;
+}
+
+.espacio p{
+    text-align: justify;
+}
+
+.parallax-chico{
+    height: 500px;
+    background-image: url(/assets/images/fondo3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.parallax-chico h2{
+display: flex;
+height: inherit;
+justify-content: center;
+align-items: center;
+color: #fff;
+font-weight: 400;
+
+}
+
+.contacto{
+    background-color: #fff;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contacto h2{
+    text-align: center;
+    padding: 20px;
+}
+
+/*.logos img{
+   
+    width: 350px;
+    height: 250px;
+    padding: 40px;
+    margin-left: 300px;
+}*/
+
+.centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    width: 100%;
+    height: 500px;
+}
+
+.icon{
+    width: 100px;
+    height: 80px;
+    margin: 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all .4s;
+}
+
+.icon:nth-child(1):hover{
+    box-shadow: 0px 0px 10px rgba(58, 245, 1, 0.787);
+}
+
+.icon:nth-child(2):hover{
+    box-shadow: 0px 0px 10px #9908d3;
+}
+
+.fa-whatsapp{
+    color: rgba(58, 245, 1, 0.787);
+    filter: drop-shadow(0px 0px 10px rgba(58, 245, 1, 0.787));
+}
+
+.fa-instagram{
+    color: #9908d3;
+    filter: drop-shadow(0px 0px 10px #9908d3);
+}
+
+.texto h2{
+    text-align: center;
+    color: #000;
+    display: flex;
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie{
+    text-align: center;
+    padding: 45px;
+    background-color: #4B4A4A;
+    color: #fff;
+}
+
+#boton-arriba{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(246, 8, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+
+#boton-arriba:hover{
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, o.1);
+}
+
+/*section{
+    width: 100%;
+    height: 750px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.parallax{
+    background-color: #fff;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+#seccion1{
+    background-image: url("/assets/images/nails.jpg");
+}
+#seccion2{
+    background-image: url("/assets/images/alisado.jpg");
+}
+#seccion3{
+    background-image: url("/assets/images/pedicura.jpg");
+}*/
